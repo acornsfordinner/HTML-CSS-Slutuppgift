@@ -1,0 +1,21 @@
+body{
+    min-height:100vh;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    
+}
+header{
+    top:0;
+    border:1px solid red;
+    text-align:center;
+}
+main{
+    flex:1;
+    margin:15px;
+}
+footer{
+    background-color:green;
+    bottom:0;
+    text-align:center;
+}
